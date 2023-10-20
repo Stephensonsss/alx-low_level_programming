@@ -1,16 +1,12 @@
 #include "lists.h"
-#include <stdio.h>
 
 /**
- * beforemain - function that executes before main
+ * first - Function that prints a string before main() is executed.
  *
- * Return: void
+ * Return: No return value.
  */
-
-/*void beforemain(void)__attribute__ ((constructor));*/
-
-void beforemain(void)
+void first(void)
 {
-	printf("You're beat! and yet, you must allow,\n");
-	printf("I bore my house upon my back!\n");
+	printf("You're beat! and yet, you must allow,\n"
+			"I bore my house upon my back!\n");
 }
